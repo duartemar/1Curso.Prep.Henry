@@ -72,6 +72,17 @@ function colors(color) {
   //En caso que el color recibido sea "orange", devuleve --> "This is orange"
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
+
+  // switch(color) {
+    // case "blue":
+    //   return "This is blue";
+    // case "red":
+    //   return "This is red";
+    // case "green":
+    //   return "This is green";
+    // default:
+    //   return "Color not found";
+  }
   if ( color === "blue" ) {
 
     return "This is blue";
@@ -126,7 +137,11 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-
+  // if (number.isInteger (numero)) {
+  //  return true;
+  //} 
+  // else {
+  //}  return false;
   if ( numero % 1 === 0) {
     return true;
   } else {
